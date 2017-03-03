@@ -1,0 +1,28 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.block__center{
+  margin-left: auto;
+  margin-right: auto;
+}
+.annonce-item {
+    padding: 0.9em 1em;
+    border-bottom: 1px solid #ddd;
+    border-left: 6px solid transparent;
+}
+.annonce__title {
+    margin: 0;
+}
+.annonce_tag--list {
+    text-transform: uppercase;
+    color: #999;
+}
+.annonce__desc {
+    margin: 0.4em 0;
+}

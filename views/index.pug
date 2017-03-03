@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  div.pure-u-3-5.block__center
+    h3 List des annonces
+    - if (typeof(annonces) !== 'undefined')
+        each val, index in annonces
+          div.annonce-item
+            h5.annonce_tag--list= val.username
+            h4.annonce__title= val.title
+            p.annonce__desc= val.description
+    
+    - else
+      p Pas d'annonces
+

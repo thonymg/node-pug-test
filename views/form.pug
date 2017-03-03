@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  div.pure-u-5-5.block__center
+    form(method='POST' action='/posts' accept-charset='utf-8').pure-form.pure-form-aligned.pure-2-5
+      fieldset.pure-group.center__block 
+        input#inp1.pure-input-1-2(type='text' name='username', placeholder="votre nom et/ou votre contact")
+        input#inp1.pure-input-1-2(type='text' name='title', placeholder="titre de l'annonce")
+        textarea#txtrea1.pure-input-1-2(name='description', placeholder="descriptif de l'annonce")
+
+      button.pure-button.pure-input-1-2.pure-button-primary(type='submit') Envoyer
